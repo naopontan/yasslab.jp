@@ -9,8 +9,8 @@ matrix:
     script:
       - npm run css
 
-#    language: ruby
-#    before_install:
-#      - gem install bundler
-#    script:
-#      - bundle exec rake test
+    language: ruby
+    before_install:
+      - gem install bundler
+    script:
+      - bundle exec rake test

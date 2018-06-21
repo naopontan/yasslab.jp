@@ -10,7 +10,7 @@ matrix:
 #      - npm run css
 
     language: ruby
-    ruby: "2.5.1"
+    rvm: "2.5.1"
     before_install:
       - gem install bundler
     script:

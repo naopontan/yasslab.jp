@@ -1,4 +1,9 @@
 matrix:
+    language: node_js
+#    before_install:
+#  - npm install
+    script:
+      - npm run css
   include:
     language: ruby
     before_install:

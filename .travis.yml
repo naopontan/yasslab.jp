@@ -1,13 +1,13 @@
 matrix:
   include:
 
-#    language: node_js
-#    node_js:
-#      - "10.3.0"
-#    install:
-#      - npm install
-#    script:
-#      - npm run css
+    language: node_js
+    node_js:
+      - "10.3.0"
+    install:
+      - npm install
+    script:
+      - npm run css
 
     language: ruby
     rvm: "2.5.1"

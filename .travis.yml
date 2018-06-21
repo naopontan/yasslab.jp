@@ -1,5 +1,6 @@
-language: ruby
-before_install:
-- gem install bundler
-script:
-  - bundle exec rake test
+matrix:include
+  language: ruby
+  before_install:
+    - gem install bundler
+  script:
+    - bundle exec rake test

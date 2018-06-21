@@ -109,3 +109,6 @@ vendor/
 
 ## node
 /node_modules/
+
+## npm scripts
+/dist/css
